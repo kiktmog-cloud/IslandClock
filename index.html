@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Island Clock - Privacy Policy & Support</title>
+  <style>
+    :root {
+      --bg-color: #0b0c10;
+      --card-bg: #16181f;
+      --accent-color: #ff9500;
+      --text-main: #f5f5f7;
+      --text-muted: #86868b;
+      --border-color: rgba(255, 255, 255, 0.1);
+      --font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: var(--font-family);
+      line-height: 1.6;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 780px;
+      width: 100%;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .app-icon {
+      width: 88px;
+      height: 88px;
+      border-radius: 20px;
+      background: linear-gradient(135deg, #1c1c1e, #000);
+      border: 1px solid rgba(255, 149, 0, 0.4);
+      box-shadow: 0 8px 24px rgba(255, 149, 0, 0.2);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+    }
+
+    .tagline {
+      color: var(--text-muted);
+      font-size: 16px;
+      margin-bottom: 24px;
+    }
+
+    .lang-switcher {
+      display: inline-flex;
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 4px;
+      border: 1px solid var(--border-color);
+      margin-bottom: 20px;
+    }
+
+    .lang-btn {
+      padding: 6px 16px;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .lang-btn.active {
+      background: var(--accent-color);
+      color: #000;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 18px;
+      padding: 28px;
+      border: 1px solid var(--border-color);
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--accent-color);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    p {
+      color: #d1d1d6;
+      font-size: 15px;
+      margin-bottom: 14px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-bottom: 14px;
+    }
+
+    li {
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 10px;
+      color: #d1d1d6;
+      font-size: 14.5px;
+    }
+
+    li::before {
+      content: "•";
+      position: absolute;
+      left: 8px;
+      color: var(--accent-color);
+      font-weight: bold;
+    }
+
+    .contact-box {
+      background: rgba(255, 149, 0, 0.08);
+      border: 1px solid rgba(255, 149, 0, 0.25);
+      border-radius: 12px;
+      padding: 16px;
+      margin-top: 14px;
+    }
+
+    .contact-box a {
+      color: var(--accent-color);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .contact-box a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="app-icon">⏱️</div>
+      <h1>Island Clock</h1>
+      <p class="tagline">Real-Time Second Clock & Desk Clock for iOS Dynamic Island</p>
+
+      <div class="lang-switcher">
+        <button class="lang-btn active" onclick="switchLang('ko')">한국어</button>
+        <button class="lang-btn" onclick="switchLang('en')">English</button>
+      </div>
+    </header>
+
+    <!-- 한국어 섹션 -->
+    <div id="content-ko">
+      <!-- 1. 개인정보 처리방침 -->
+      <section class="card">
+        <h2>🔒 개인정보 처리방침 (Privacy Policy)</h2>
+        <p><strong>Island Clock(아일랜드 클락)</strong>은 사용자의 소중한 개인정보를 최우선으로 존중하며, 어떠한 상황에서도 개인정보를 침해하지 않는 <strong>100% 온디바이스(On-Device) 오프라인 앱</strong>입니다.</p>
+
+        <ul>
+          <li><strong>개인정보 수집 및 저장 0%</strong>: 사용자의 성명, 연락처, 기기 식별값(IDFA), 위치 정보 등 어떠한 개인 식별 정보도 수집하거나 저장하지 않습니다.</li>
+          <li><strong>외부 서버 전송 차단</strong>: 앱에서 설정한 컬러 테마, 잠금화면 다짐 문구, 시계 설정 데이터는 기기 내부(Apple AppStorage 및 ActivityKit 시스템 메모리)에만 안전하게 저장되며, 외부 인터넷 서버로 전송되지 않습니다.</li>
+          <li><strong>제3자 제공 및 광고 추적기 미포함</strong>: 어떠한 제3자 분석 툴(Google Analytics, Firebase 등)이나 광고 추적 SDK도 탑재되어 있지 않습니다.</li>
+          <li><strong>인앱 결제 보안</strong>: 인앱 결제는 Apple의 표준 결제 시스템(StoreKit 2)을 통해서만 안전하게 처리되며, 결제 수단 및 금융 정보는 개발자가 일체 접근할 수 없습니다.</li>
+        </ul>
+        <p style="color: var(--text-muted); font-size: 13px;">최종 업데이트: 2026년 10월 5일</p>
+      </section>
+
+      <!-- 2. 고객 지원 -->
+      <section class="card">
+        <h2>💬 고객 지원 & 문의 (Support & FAQ)</h2>
+        <p>Island Clock 이용 중 질문이나 개선 제안이 있으신가요? 개발자에게 직접 문의해 주시면 신속하게 답변해 드립니다.</p>
+
+        <div class="contact-box">
+          <p style="margin-bottom: 6px;"><strong>공식 고객 지원 이메일:</strong></p>
+          <a href="mailto:gemus.kik@gmail.com">gemus.kik@gmail.com</a>
+        </div>
+
+        <h3 style="font-size: 16px; margin: 20px 0 10px; color: #fff;">자주 묻는 질문 (FAQ)</h3>
+        <ul>
+          <li><strong>다이나믹 아일랜드 시계가 멈추거나 사라져요:</strong> iOS 시스템 배터리 보호 정책상 Live Activity는 최대 8시간 동안 지속된 후 자동 종료됩니다. 앱을 다시 열면 즉시 새로운 세션으로 갱신됩니다.</li>
+          <li><strong>기기를 변경했는데 PRO 기능이 잠겨 있어요:</strong> 앱 화면 우상단 <code>(i)</code> 버튼 또는 PRO 구매 팝업 하단의 <strong>[구매 내역 복원 (Restore)]</strong>을 터치하시면 추가 결제 없이 즉시 무료로 복원됩니다.</li>
+          <li><strong>지원 기기:</strong> 다이나믹 아일랜드 실시간 시계는 iPhone 14 Pro, iPhone 15/16 전 시리즈를 지원하며, 가로 OLED 탁상시계 및 잠금화면 시계는 iOS 16.1 이상의 모든 iPhone에서 작동합니다.</li>
+        </ul>
+      </section>
+
+      <!-- 3. 표준 이용약관 -->
+      <section class="card">
+        <h2>📄 이용약관 (Terms of Use)</h2>
+        <p>본 앱은 Apple의 표준 최종 사용자 사용권 계약(Standard Apple End User License Agreement, EULA)을 따릅니다.</p>
+        <p><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" style="color: var(--accent-color);">Apple Standard EULA 전문 보기 →</a></p>
+      </section>
+    </div>
+
+    <!-- English Section -->
+    <div id="content-en" style="display: none;">
+      <!-- 1. Privacy Policy -->
+      <section class="card">
+        <h2>🔒 Privacy Policy</h2>
+        <p><strong>Island Clock</strong> respects your privacy as the highest priority. It is a <strong>100% on-device, fully offline application</strong> designed never to collect or transmit personal information.</p>
+
+        <ul>
+          <li><strong>Zero Data Collection</strong>: We do not collect, store, or share any personally identifiable information (PII), device identifiers (IDFA), or location data.</li>
+          <li><strong>Offline Operation</strong>: All your custom affirmations, theme selections, and preferences are stored strictly on your local device (Apple AppStorage & ActivityKit) and are never sent over the internet.</li>
+          <li><strong>No Third-Party Trackers</strong>: No third-party analytics SDKs (such as Firebase, Google Analytics) or advertising trackers are included in the app.</li>
+          <li><strong>Secure In-App Purchases</strong>: All purchases are handled directly through Apple's official StoreKit 2 framework. We do not have access to your payment methods or billing information.</li>
+        </ul>
+        <p style="color: var(--text-muted); font-size: 13px;">Last Updated: October 5, 2026</p>
+      </section>
+
+      <!-- 2. Support -->
+      <section class="card">
+        <h2>💬 Support & FAQ</h2>
+        <p>Have questions, issues, or suggestions? Feel free to reach out directly to the developer.</p>
+
+        <div class="contact-box">
+          <p style="margin-bottom: 6px;"><strong>Official Support Email:</strong></p>
+          <a href="mailto:gemus.kik@gmail.com">gemus.kik@gmail.com</a>
+        </div>
+
+        <h3 style="font-size: 16px; margin: 20px 0 10px; color: #fff;">Frequently Asked Questions (FAQ)</h3>
+        <ul>
+          <li><strong>Why did the Dynamic Island clock stop?</strong> Under Apple's iOS battery optimization policy, Live Activities automatically end after a maximum of 8 hours. Simply reopening the app will instantly launch a fresh session.</li>
+          <li><strong>I switched devices, how do I restore PRO?</strong> Open the app, tap the <code>(i)</code> info button at top right, and tap <strong>"Restore Purchases"</strong> to reactivate your lifetime license at zero cost.</li>
+          <li><strong>Supported Devices:</strong> The Dynamic Island clock is supported on iPhone 14 Pro, iPhone 15/16 series, and above. The landscape OLED Desk Clock and Lock Screen Live Activities are fully compatible with all iPhones running iOS 16.1+.</li>
+        </ul>
+      </section>
+
+      <!-- 3. Terms of Use -->
+      <section class="card">
+        <h2>📄 Terms of Use</h2>
+        <p>Island Clock adheres to Apple's Standard End User License Agreement (EULA).</p>
+        <p><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" style="color: var(--accent-color);">View Apple Standard EULA →</a></p>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 Island Clock. Designed for iOS & Dynamic Island.</p>
+    </footer>
+  </div>
+
+  <script>
+    function switchLang(lang) {
+      const koContent = document.getElementById('content-ko');
+      const enContent = document.getElementById('content-en');
+      const btns = document.querySelectorAll('.lang-btn');
+
+      if (lang === 'ko') {
+        koContent.style.display = 'block';
+        enContent.style.display = 'none';
+        btns[0].classList.add('active');
+        btns[1].classList.remove('active');
+      } else {
+        koContent.style.display = 'none';
+        enContent.style.display = 'block';
+        btns[0].classList.remove('active');
+        btns[1].classList.add('active');
+      }
+    }
+  </script>
+</body>
+</html>
